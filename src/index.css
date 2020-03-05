@@ -10,5 +10,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    border: 1px solid rgb(13, 182, 224);
+    border: 1px solid rgba(13, 80, 224, 0.774);
 }

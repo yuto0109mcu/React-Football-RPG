@@ -15,7 +15,7 @@ const LoveGuage = ({love}) => {
 
    const GuageContainer = styled.div`
       width: 20px;
-      height: 150px;
+      height: 200px;
       border: 3px solid rgb(255, 100, 183);
       display: flex;
       flex-direction: column;
