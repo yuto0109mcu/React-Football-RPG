@@ -12,12 +12,13 @@ const Heroine = ({imgUrl}) => {
 }
 
 const HeroineStyle = styled.div`
-   height: 40%;
+   /* height: 40%; */
+   width: 100%;
    position: absolute;
-   right: 20px;
-   bottom: 150px;
+   bottom: 220px;
    .heroine-img {
-      height: 100%;
+      /* height: 100%; */
+      width: 100%;
    }
 `
 
