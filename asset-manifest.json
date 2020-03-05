@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/football-rpg/static/css/main.978c1050.chunk.css",
+    "main.js": "/football-rpg/static/js/main.5a93202f.chunk.js",
+    "main.js.map": "/football-rpg/static/js/main.5a93202f.chunk.js.map",
+    "runtime-main.js": "/football-rpg/static/js/runtime-main.1657bdba.js",
+    "runtime-main.js.map": "/football-rpg/static/js/runtime-main.1657bdba.js.map",
+    "static/js/2.3752efcd.chunk.js": "/football-rpg/static/js/2.3752efcd.chunk.js",
+    "static/js/2.3752efcd.chunk.js.map": "/football-rpg/static/js/2.3752efcd.chunk.js.map",
+    "index.html": "/football-rpg/index.html",
+    "precache-manifest.9d8dd35396d189c65e7bb9699ef6f4e4.js": "/football-rpg/precache-manifest.9d8dd35396d189c65e7bb9699ef6f4e4.js",
+    "service-worker.js": "/football-rpg/service-worker.js",
+    "static/css/main.978c1050.chunk.css.map": "/football-rpg/static/css/main.978c1050.chunk.css.map",
+    "static/js/2.3752efcd.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.3752efcd.chunk.js.LICENSE.txt",
+    "static/media/battle-bg.jpg": "/football-rpg/static/media/battle-bg.872a4d29.jpg",
+    "static/media/hmm.PNG": "/football-rpg/static/media/hmm.575c86dd.PNG",
+    "static/media/sad.PNG": "/football-rpg/static/media/sad.9ff51fc7.PNG",
+    "static/media/teki.png": "/football-rpg/static/media/teki.d9884610.png",
+    "static/media/waoh.PNG": "/football-rpg/static/media/waoh.895d07a6.PNG",
+    "static/media/yeah.PNG": "/football-rpg/static/media/yeah.a839a231.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1657bdba.js",
+    "static/js/2.3752efcd.chunk.js",
+    "static/css/main.978c1050.chunk.css",
+    "static/js/main.5a93202f.chunk.js"
+  ]
+}
