@@ -211,20 +211,15 @@ const Main = () => {
             setDecisionIndex(decisionIndex + 1)
             setDecisionTime(false)
             setBattleTime(false)
-            // setAfterTextIndex(afterTextIndex + 1)
             setAttack(true)
             if(x.good === true) {
-               // setPhrase(goodText[afterTextIndex])
                setPhrase(x.text)
                setLove(love + 5)
                setDecidionJudge(true)
-               // setImgUrl(yeahImg)
             } else if (x.good === false) {
-               // setPhrase(badText[afterTextIndex])
                setPhrase(x.text)
                setLove(love - 5)
                setDecidionJudge(false)
-               // setImgUrl(sadImg)
             }
          }
          return (
@@ -238,8 +233,10 @@ const Main = () => {
          )
       })
       showChoices = (
-         <div className="btn-box">
-            {Choice}
+         <div className="decision-bg">
+            <div className="btn-box">
+               {Choice}
+            </div>
          </div>
       )
    }
@@ -280,29 +277,33 @@ const Screen = styled.div`
       background-color: rgba(255, 255, 255, 0.705);
       border-radius: 10px;
       font-size: 1.3em;
+      border: 4px solid #fff;
    }
-
-   .btn-box {
-      width: 100%;
-      height: 30%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      z-index: 10;
+   .decision-bg {
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
       position: absolute;
-      top: 100px;
-      left: 50%;
-      padding: 20px 0;
-      transform: translateX(-50%);
-      background-color: rgba(255, 255, 255, 0.705);
-      .decision-btn {
-         width: 75%;
-         height: 40%;
-         border: none;
-         padding: 0;
-         margin: 0 auto;
-         background-color: rgb(0, 174, 218); 
-         border-radius: 6px;
+      z-index: 10;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .btn-box {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         height: 30%;
+         width: 80%;
+         .decision-btn {
+            width: 100%;
+            height: 40%;
+            border: none;
+            padding: 0 5px;
+            margin: 0 auto;
+            background-color: rgba(0, 221, 210, 0.7); 
+            border: 3px solid rgb(13, 182, 224);
+            border-radius: 6px;
+         }
       }
    }
 `

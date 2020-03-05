@@ -25,19 +25,32 @@ const EnemyStyle = styled.div`
    display: block;
    display: ${props => props.afterTextIndex > 0 || props.phrase === props.goNextText ? "none" : "block"};
    transition: 1s;
-   animation: ${props => props.attack ? "gururi 0.5s linear infinite" : "none"};
+   animation: ${props => 
+      props.attack ? "gururi 1.5s linear 1" : "none"
+   };
+   animation-fill-mode: forwards;
    position: absolute;
    left: 20px;
    bottom: 400px;
    /* animation: gururi 0.5s linear infinite; */
    @keyframes gururi { 
-   0% {
-      transform: rotateZ(0deg);
+      0% {
+         transform: rotateZ(0deg) scale(1);
+      }
+      100% {
+         transform: rotateZ(2000deg) scale(0);
+         opacity: 0;
+      }
    }
-   100% {
-      transform: rotateZ(360deg);
+   @keyframes scale {
+      0% {
+         transform: scale(1);
+      }
+      100% {
+         transform: scale(0);
+      }
    }
-}
+
    img {
       height: 100%;
    }
