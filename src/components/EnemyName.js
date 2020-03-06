@@ -17,7 +17,7 @@ const EnemyName = ({phaseIndex}) => {
 const EnemyNameBox = styled.p`
    display: block;
    color: #fff;
-   font-size: 1.2em;
+   font-size: 1em;
    text-align: center;
    background-color: rgba(0, 0, 0, 0.8);
    background-color: rgba(13, 80, 224, 0.774);

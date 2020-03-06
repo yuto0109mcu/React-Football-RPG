@@ -28,7 +28,7 @@ const Enemy = ({phrase, goNextText, phaseIndex, decisionJudge, attack , afterTex
 
 const EnemyStyle = styled.div`
    /* height: 30%; */
-   width: 50%;
+   width: 40%;
    display: block;
    display: ${props => props.afterTextIndex > 0 || props.phrase === props.goNextText ? "none" : "block"};
    /* transform: ${props => 
@@ -36,7 +36,7 @@ const EnemyStyle = styled.div`
    }; */
    position: absolute;
    left: 20px;
-   top: 120px;
+   top: 8%;
 
    .gururi {
       transform: ${({decisionJudge}) => decisionJudge ? "rotate(100deg)" : "rotate(45deg)"};

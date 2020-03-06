@@ -15,7 +15,7 @@ const HeroineStyle = styled.div`
    /* height: 40%; */
    width: 100%;
    position: absolute;
-   bottom: 220px;
+   bottom: 26%;
    .heroine-img {
       /* height: 100%; */
       width: 100%;
