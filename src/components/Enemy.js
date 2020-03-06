@@ -26,19 +26,19 @@ const EnemyStyle = styled.div`
    display: block;
    display: ${props => props.afterTextIndex > 0 || props.phrase === props.goNextText ? "none" : "block"};
    transition: 1s;
-   animation: ${props => 
+   -webkit-animation: ${props => 
       props.attack ? "gururi 1.5s linear 1" : "none"
    };
-   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
    position: absolute;
    left: 20px;
    top: 120px;
    @keyframes gururi { 
       0% {
-         transform: rotateZ(0deg) scale(1);
+         -webkit-transform: rotateZ(0deg) scale(1);
       }
       100% {
-         transform: rotateZ(2000deg) scale(0);
+         -webkit-transform: rotateZ(2000deg) scale(0);
          opacity: 0;
       }
    }
@@ -52,7 +52,6 @@ const EnemyStyle = styled.div`
    }
 
    img {
-      /* height: 100%; */
       width: 100%;
    }
 `
