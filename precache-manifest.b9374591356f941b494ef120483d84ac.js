@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7781c3f389dffb556b96dc3017401d43",
+    "revision": "48cb3136aa9b8825f0300d607ceb8914",
     "url": "/football-rpg/index.html"
   },
   {
-    "revision": "afcfa5d028c3b04def8e",
+    "revision": "0ea415c0955456dfa4d7",
     "url": "/football-rpg/static/css/main.978c1050.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/football-rpg/static/js/2.3752efcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afcfa5d028c3b04def8e",
-    "url": "/football-rpg/static/js/main.714ff77c.chunk.js"
+    "revision": "0ea415c0955456dfa4d7",
+    "url": "/football-rpg/static/js/main.d9eeaf85.chunk.js"
   },
   {
     "revision": "dcce2bcb47b05bc25dea",
