@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/football-rpg/static/css/main.978c1050.chunk.css",
-    "main.js": "/football-rpg/static/js/main.d9eeaf85.chunk.js",
-    "main.js.map": "/football-rpg/static/js/main.d9eeaf85.chunk.js.map",
+    "main.js": "/football-rpg/static/js/main.fb0e3374.chunk.js",
+    "main.js.map": "/football-rpg/static/js/main.fb0e3374.chunk.js.map",
     "runtime-main.js": "/football-rpg/static/js/runtime-main.1657bdba.js",
     "runtime-main.js.map": "/football-rpg/static/js/runtime-main.1657bdba.js.map",
     "static/js/2.3752efcd.chunk.js": "/football-rpg/static/js/2.3752efcd.chunk.js",
     "static/js/2.3752efcd.chunk.js.map": "/football-rpg/static/js/2.3752efcd.chunk.js.map",
     "index.html": "/football-rpg/index.html",
-    "precache-manifest.b9374591356f941b494ef120483d84ac.js": "/football-rpg/precache-manifest.b9374591356f941b494ef120483d84ac.js",
+    "precache-manifest.fe2facf4fce8220726afb6b3a56180ed.js": "/football-rpg/precache-manifest.fe2facf4fce8220726afb6b3a56180ed.js",
     "service-worker.js": "/football-rpg/service-worker.js",
     "static/css/main.978c1050.chunk.css.map": "/football-rpg/static/css/main.978c1050.chunk.css.map",
     "static/js/2.3752efcd.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.3752efcd.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.1657bdba.js",
     "static/js/2.3752efcd.chunk.js",
     "static/css/main.978c1050.chunk.css",
-    "static/js/main.d9eeaf85.chunk.js"
+    "static/js/main.fb0e3374.chunk.js"
   ]
 }
