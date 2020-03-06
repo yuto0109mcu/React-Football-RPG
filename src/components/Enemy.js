@@ -38,7 +38,7 @@ const EnemyStyle = styled.div`
          -webkit-transform: rotateZ(0deg) scale(1);
       }
       100% {
-         -webkit-transform: rotateZ(2000deg) scale(0);
+         -webkit-transform: rotateZ(720deg) scale(0);
          opacity: 0;
       }
    }
