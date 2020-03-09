@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import openingTexts from "../texts-source/openingTexts"
 import styled from "styled-components"
+import bgimg from "../img/bg.jpg"
 
 const Opening = ({startGame}) => {
    const [openingIndex, setOpeningIndex] = useState(0)
@@ -11,7 +12,7 @@ const Opening = ({startGame}) => {
       }
    }
    return (
-            <OpeningScreen onClick={nextText}>
+            <OpeningScreen onClick={nextText} bgimg={bgimg}>
                <p>
                   {openingTexts[openingIndex]}
                </p>
@@ -25,7 +26,8 @@ const OpeningScreen = styled.div`
    margin: 0 auto;
    display: flex;
    align-items: center;
-   /* padding: 0 10px;  */
+   background-image: url(${({bgimg}) => bgimg});
+   background-size: cover;
    p {
       background-color: rgba(0, 0, 0, 0.86);
       font-size: 1.3em;
