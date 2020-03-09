@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/football-rpg/static/css/main.978c1050.chunk.css",
-    "main.js": "/football-rpg/static/js/main.a21d42d5.chunk.js",
-    "main.js.map": "/football-rpg/static/js/main.a21d42d5.chunk.js.map",
+    "main.js": "/football-rpg/static/js/main.54d414e6.chunk.js",
+    "main.js.map": "/football-rpg/static/js/main.54d414e6.chunk.js.map",
     "runtime-main.js": "/football-rpg/static/js/runtime-main.1657bdba.js",
     "runtime-main.js.map": "/football-rpg/static/js/runtime-main.1657bdba.js.map",
-    "static/js/2.3752efcd.chunk.js": "/football-rpg/static/js/2.3752efcd.chunk.js",
-    "static/js/2.3752efcd.chunk.js.map": "/football-rpg/static/js/2.3752efcd.chunk.js.map",
+    "static/js/2.e9e7f6c7.chunk.js": "/football-rpg/static/js/2.e9e7f6c7.chunk.js",
+    "static/js/2.e9e7f6c7.chunk.js.map": "/football-rpg/static/js/2.e9e7f6c7.chunk.js.map",
     "index.html": "/football-rpg/index.html",
-    "precache-manifest.c7b9a911d2d0f841cbbc682b8a094ea0.js": "/football-rpg/precache-manifest.c7b9a911d2d0f841cbbc682b8a094ea0.js",
+    "precache-manifest.01a305e092f3ffc85cfc3fdfa9b546d9.js": "/football-rpg/precache-manifest.01a305e092f3ffc85cfc3fdfa9b546d9.js",
     "service-worker.js": "/football-rpg/service-worker.js",
     "static/css/main.978c1050.chunk.css.map": "/football-rpg/static/css/main.978c1050.chunk.css.map",
-    "static/js/2.3752efcd.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.3752efcd.chunk.js.LICENSE.txt",
+    "static/js/2.e9e7f6c7.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.e9e7f6c7.chunk.js.LICENSE.txt",
     "static/media/battle-bg.jpg": "/football-rpg/static/media/battle-bg.872a4d29.jpg",
+    "static/media/bg.jpg": "/football-rpg/static/media/bg.71ef3217.jpg",
     "static/media/hmm.PNG": "/football-rpg/static/media/hmm.575c86dd.PNG",
     "static/media/sad.PNG": "/football-rpg/static/media/sad.9ff51fc7.PNG",
     "static/media/teki.png": "/football-rpg/static/media/teki.d9884610.png",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1657bdba.js",
-    "static/js/2.3752efcd.chunk.js",
+    "static/js/2.e9e7f6c7.chunk.js",
     "static/css/main.978c1050.chunk.css",
-    "static/js/main.a21d42d5.chunk.js"
+    "static/js/main.54d414e6.chunk.js"
   ]
 }
