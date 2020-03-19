@@ -23,7 +23,7 @@ import hmmImg from "../img/heroine-img/hmm.PNG"
 
 import bgImg from "../img/battle-bg.jpg"
 
-const Main = () => {
+const Main = ({endGame}) => {
    
    const [textIndex, setTextIndex] = useState(0)
    const [phaseIndex, setPhaseIndex] = useState(0)
@@ -42,12 +42,19 @@ const Main = () => {
 
    const [imgUrl, setImgUrl] = useState(waohImg)
 
+   const toEndScreen = () => {
+      endGame()
+   }
+
    let ShowBattle
    if (afterTextIndex === 2 && phaseIndex === mainPhrases.length - 1) {
       ShowBattle = () => {
+         
          const ending = () => {
             setEndingIndex(endingIndex + 1)
-            if (love > 50) {
+            if (endingIndex === 3) {
+               toEndScreen()
+            } else if (love > 50) {
                setPhrase(goodEndingText[endingIndex])
                setImgUrl(yeahImg)
             } else if (love === 50) {
@@ -64,7 +71,7 @@ const Main = () => {
                <p 
                   onClick={ending} 
                   className="text-box"
-               >
+                  >
                   {phrase}
                </p>
             </>

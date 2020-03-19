@@ -15,43 +15,34 @@ const Enemy = ({phrase, goNextText, phaseIndex, decisionJudge, attack , afterTex
          afterTextIndex={afterTextIndex}
       >
          <EnemyName phaseIndex={phaseIndex} />
-         <img src={enemyImgSrc} alt="enemy"/>
+         <img 
+            src={enemyImgSrc} 
+            alt="enemy"
+            className={
+               attack ? "gururi" : ""
+            }
+         />
       </EnemyStyle>
    )
 }
 
 const EnemyStyle = styled.div`
    /* height: 30%; */
-   width: 50%;
+   width: 40%;
    display: block;
    display: ${props => props.afterTextIndex > 0 || props.phrase === props.goNextText ? "none" : "block"};
-   transition: 1s;
-   animation: ${props => 
-      props.attack ? "gururi 1.5s linear 1" : "none"
-   };
-   animation-fill-mode: forwards;
+   /* transform: ${props => 
+      props.attack ? "scale(0)" : "none"
+   }; */
    position: absolute;
    left: 20px;
-   top: 120px;
-   @keyframes gururi { 
-      0% {
-         transform: rotateZ(0deg) scale(1);
-      }
-      100% {
-         transform: rotateZ(2000deg) scale(0);
-         opacity: 0;
-      }
-   }
-   @keyframes scale {
-      0% {
-         transform: scale(1);
-      }
-      100% {
-         transform: scale(0);
-      }
-   }
+   top: 8%;
 
+   .gururi {
+      transform: ${({decisionJudge}) => decisionJudge ? "rotate(100deg)" : "rotate(45deg)"};
+   }
    img {
+      transition: all 1s 0s ease;
       /* height: 100%; */
       width: 100%;
    }
