@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9f772eaf0ea98860b2d6c9b330d985d",
+    "revision": "060207ecf7c0666a7006084c4df609a7",
     "url": "/football-rpg/index.html"
   },
   {
-    "revision": "0241f9526d49fa53a6d9",
+    "revision": "eb63ea01c90c1cb3c912",
     "url": "/football-rpg/static/css/main.978c1050.chunk.css"
   },
   {
-    "revision": "d3f02cdb965e0498b573",
-    "url": "/football-rpg/static/js/2.e9e7f6c7.chunk.js"
+    "revision": "5640d958201127d0caa7",
+    "url": "/football-rpg/static/js/2.57945447.chunk.js"
   },
   {
-    "revision": "96737259fba8bed590bf9fffa61f905c",
-    "url": "/football-rpg/static/js/2.e9e7f6c7.chunk.js.LICENSE.txt"
+    "revision": "f231859d6585c4cd5f80c344783ed269",
+    "url": "/football-rpg/static/js/2.57945447.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0241f9526d49fa53a6d9",
-    "url": "/football-rpg/static/js/main.54d414e6.chunk.js"
+    "revision": "eb63ea01c90c1cb3c912",
+    "url": "/football-rpg/static/js/main.c1310d6b.chunk.js"
   },
   {
-    "revision": "dcce2bcb47b05bc25dea",
-    "url": "/football-rpg/static/js/runtime-main.1657bdba.js"
+    "revision": "873f8cb152822b68f61b",
+    "url": "/football-rpg/static/js/runtime-main.526542b0.js"
   },
   {
     "revision": "872a4d29992fe7aa29b42d32c84e8f68",

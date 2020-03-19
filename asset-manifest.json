@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/football-rpg/static/css/main.978c1050.chunk.css",
-    "main.js": "/football-rpg/static/js/main.54d414e6.chunk.js",
-    "main.js.map": "/football-rpg/static/js/main.54d414e6.chunk.js.map",
-    "runtime-main.js": "/football-rpg/static/js/runtime-main.1657bdba.js",
-    "runtime-main.js.map": "/football-rpg/static/js/runtime-main.1657bdba.js.map",
-    "static/js/2.e9e7f6c7.chunk.js": "/football-rpg/static/js/2.e9e7f6c7.chunk.js",
-    "static/js/2.e9e7f6c7.chunk.js.map": "/football-rpg/static/js/2.e9e7f6c7.chunk.js.map",
+    "main.js": "/football-rpg/static/js/main.c1310d6b.chunk.js",
+    "main.js.map": "/football-rpg/static/js/main.c1310d6b.chunk.js.map",
+    "runtime-main.js": "/football-rpg/static/js/runtime-main.526542b0.js",
+    "runtime-main.js.map": "/football-rpg/static/js/runtime-main.526542b0.js.map",
+    "static/js/2.57945447.chunk.js": "/football-rpg/static/js/2.57945447.chunk.js",
+    "static/js/2.57945447.chunk.js.map": "/football-rpg/static/js/2.57945447.chunk.js.map",
     "index.html": "/football-rpg/index.html",
-    "precache-manifest.01a305e092f3ffc85cfc3fdfa9b546d9.js": "/football-rpg/precache-manifest.01a305e092f3ffc85cfc3fdfa9b546d9.js",
+    "precache-manifest.d6e8e06bef52e4f5e670bf410c100125.js": "/football-rpg/precache-manifest.d6e8e06bef52e4f5e670bf410c100125.js",
     "service-worker.js": "/football-rpg/service-worker.js",
     "static/css/main.978c1050.chunk.css.map": "/football-rpg/static/css/main.978c1050.chunk.css.map",
-    "static/js/2.e9e7f6c7.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.e9e7f6c7.chunk.js.LICENSE.txt",
+    "static/js/2.57945447.chunk.js.LICENSE.txt": "/football-rpg/static/js/2.57945447.chunk.js.LICENSE.txt",
     "static/media/battle-bg.jpg": "/football-rpg/static/media/battle-bg.872a4d29.jpg",
     "static/media/bg.jpg": "/football-rpg/static/media/bg.71ef3217.jpg",
     "static/media/hmm.PNG": "/football-rpg/static/media/hmm.575c86dd.PNG",
@@ -21,9 +21,9 @@
     "static/media/yeah.PNG": "/football-rpg/static/media/yeah.a839a231.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.1657bdba.js",
-    "static/js/2.e9e7f6c7.chunk.js",
+    "static/js/runtime-main.526542b0.js",
+    "static/js/2.57945447.chunk.js",
     "static/css/main.978c1050.chunk.css",
-    "static/js/main.54d414e6.chunk.js"
+    "static/js/main.c1310d6b.chunk.js"
   ]
 }
